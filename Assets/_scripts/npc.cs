@@ -66,16 +66,16 @@ public class npc : MonoBehaviour {
 
 	}
 
-	void OnMouseDrag(){
-		circle.gameObject.SetActive(true);
-		Vector3 mousePosition = new Vector3 ( Input.mousePosition.x,Input.mousePosition.y, distance);
-		Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
-		transform.position = objPosition;
-	}
+	// void OnMouseDrag(){
+	// 	circle.gameObject.SetActive(true);
+	// 	Vector3 mousePosition = new Vector3 ( Input.mousePosition.x,Input.mousePosition.y, distance);
+	// 	Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
+	// 	transform.position = objPosition;
+	// }
 
-	void OnMouseUp(){
-		circle.gameObject.SetActive(false);
-	}
+	// void OnMouseUp(){
+	// 	circle.gameObject.SetActive(false);
+	// }
 
 	public void ReservedAmountOfLight(){
 		reservedLightAmount = lightLevel * giveLightPercent;

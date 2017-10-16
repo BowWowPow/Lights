@@ -51,8 +51,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\_scripts\GameManager.cs" />
+     <Compile Include="Assets\_scripts\flocking.cs" />
+     <Compile Include="Assets\_scripts\MouseDrag.cs" />
+     <Compile Include="Assets\_scripts\MouseDragClippingWindow.cs" />
+     <Compile Include="Assets\_scripts\MoveToMaskCenter.cs" />
+     <Compile Include="Assets\_scripts\MoveToMovementMask.cs" />
      <Compile Include="Assets\_scripts\npc.cs" />
+     <Compile Include="Assets\_scripts\NPC_GameManager.cs" />
+     <Compile Include="Assets\_scripts\ScaleToClippingMask.cs" />
+     <Compile Include="Assets\_scripts\ScaleToSize.cs" />
+     <Compile Include="Assets\_scripts\ZoomToMaskSize.cs" />
+     <None Include="Assets\54StencilBufferShader\Shaders\Diffuse RefNotEqualOne.shader" />
+     <None Include="Assets\54StencilBufferShader\Shaders\Diffuse RefEqualTwo.shader" />
+     <None Include="Assets\54StencilBufferShader\BonusStencilExample\Shaders\Diffuse RefNotEqualOne.shader" />
+     <None Include="Assets\54StencilBufferShader\Shaders\Self-Illumin Diffuse RefNotEqualOne.shader" />
+     <None Include="Assets\54StencilBufferShader\BonusStencilExample\Shaders\MaskOneZLess.shader" />
+     <None Include="Assets\54StencilBufferShader\BonusStencilExample\Shaders\Diffuse RefEqualTwo.shader" />
+     <None Include="Assets\54StencilBufferShader\Shaders\MaskOneZLess.shader" />
+     <None Include="Assets\54StencilBufferShader\Shaders\MaskOneZLessNoCull.shader" />
+     <None Include="Assets\54StencilBufferShader\BonusStencilExample\Shaders\Diffuse RefEqualOne.shader" />
+     <None Include="Assets\54StencilBufferShader\Shaders\MaskTwoZLess.shader" />
+     <None Include="Assets\54StencilBufferShader\BonusStencilExample\Shaders\MaskTwoZLess.shader" />
+     <None Include="Assets\54StencilBufferShader\Shaders\Diffuse RefEqualOne.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity 2017.1.0f3/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
